@@ -6,7 +6,9 @@ class increment {
 	//System.out.println(++a);
 	//System.out.println(a++ + ++a);
 	//System.out.println(a++ * ++a + 17 + ++a + a++ - 14 * 3);
-	System.out.println(a++ * a++ + 17 + ++a + ++a - 14 * 3);
+	//System.out.println(a++ * a++ + 17 + ++a + ++a - 14 * 3);
+	System.out.println(a-- * --a + 17 + --a + a-- - 14 * 3);
+
 
 
 
