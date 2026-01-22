@@ -10,6 +10,8 @@ class bitwise {
 	System.out.println(~b);
 	System.out.println(10<<1);
 	System.out.println(10>>1);
+	System.out.println(10<<2);
+
 
 
 
