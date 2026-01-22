@@ -11,6 +11,10 @@ class relational {
 	System.out.println(c!=b);
 	System.out.println(a<b);
 	System.out.println(a>b);
+	System.out.println(a<a);
+	System.out.println(a<=a);
+
+
 
 
 
