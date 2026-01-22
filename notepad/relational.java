@@ -5,6 +5,7 @@ class relational {
 	int b=10;
         char c='c';
 	char d='c';
+	int e=97;
         System.out.println(a==b);
 	System.out.println(a!=b);
 	System.out.println(c==d);
@@ -13,6 +14,8 @@ class relational {
 	System.out.println(a>b);
 	System.out.println(a<a);
 	System.out.println(a<=a);
+	System.out.println(e=='a');
+
 
 
 
