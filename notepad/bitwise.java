@@ -8,6 +8,9 @@ class bitwise {
 	System.out.println(5^6);
 	System.out.println(~a);
 	System.out.println(~b);
+	System.out.println(10<<1);
+
+
 
 
 
