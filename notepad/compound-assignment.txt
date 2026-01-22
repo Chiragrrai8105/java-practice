@@ -5,6 +5,9 @@ class compound-assignment {
 	int b=-33;
 	System.out.println(a+=10);
 	System.out.println(a-=10);
+	System.out.println(b*=10);
+}
+
 
 }
 }
