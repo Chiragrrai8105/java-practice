@@ -4,6 +4,7 @@ class logical {
         // System.out.println(!10==10);
          System.out.println(true || 10==10);
 	 System.out.println(true && 10==10);
+	 System.out.println(true && 10==20);
 
 }
 }
