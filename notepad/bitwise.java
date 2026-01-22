@@ -11,6 +11,7 @@ class bitwise {
 	System.out.println(10<<1);
 	System.out.println(10>>1);
 	System.out.println(10<<2);
+	System.out.println(10>>2);
 
 
 
