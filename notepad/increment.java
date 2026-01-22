@@ -4,7 +4,7 @@ class increment {
 	int a=33;
 	int b=-33;
 	System.out.println(a++);
-	System.out.println(b++);
+	System.out.println(++a);
 }
 }
 	
