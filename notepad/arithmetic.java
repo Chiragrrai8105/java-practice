@@ -1,0 +1,16 @@
+public class arithmeticoperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		String  b ="20";
+		System.out.println(a+b+30);
+		System.out.println("1"+2+"3"+(4+5));
+		System.out.println("1"+2+3+4+5);
+	
+		
+		
+
+	}
+
+}
