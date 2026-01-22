@@ -4,5 +4,7 @@ class ternary {
 	int a=33;
 	int b=-33;
 	System.out.println(a==b ? "True" : "false");
+	System.out.println(a!=b ? "True" : "false");
+	
 }
 }
