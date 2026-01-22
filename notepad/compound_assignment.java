@@ -1,4 +1,4 @@
-class compound-assignment {
+class compound_assignment {
 
 	public static void main(String[] args) {
 	int a=33;
@@ -7,9 +7,6 @@ class compound-assignment {
 	System.out.println(a-=10);
 	System.out.println(b*=10);
 	System.out.println(b/=10);
-}
-
-}
 
 
 }
