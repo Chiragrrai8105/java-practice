@@ -118,7 +118,58 @@ class menucard{
 													
 								}
 								break;
-							}	
+							}
+						case 3:
+							{
+								System.out.println("In Chinese we have Chicken Fried Rice -> 1");
+								System.out.println("In Chinese we have Chicken Noodles -> 2");
+								System.out.println("In Chinese we have Mutton Fried Rice -> 3");
+								System.out.println("In Chinese we have Egg Fried Rice -> 4");
+								System.out.println("In Chinese we have Egg Noodles -> 5");
+								System.out.println("In Chinese we have Egg Manchurian -> 6");
+								System.out.println("In Chinese we have Chicken Manchurian  -> 7");
+								int c=sc.nextInt();
+								switch(c)
+								{
+									case 1:
+										{
+											System.out.println("You have choosen Chicken Fried Rice and the order will be ready in 5 minutes");
+											break;
+										}
+									case 2:
+										{
+											System.out.println("You have choosen Chicken Noodles and the order will be ready in 5 minutes");
+											break;
+										}
+									case 3:
+										{
+											System.out.println("You have choosen Mutton Fried Rice and the order will be ready in 5 minutes");
+											break;
+										}
+									case 4:
+										{
+											System.out.println("You have choosen Egg Fried Rice and the order will be ready in 5 minutes");
+											break;
+										}
+									case 5:
+										{
+											System.out.println("You have choosen Egg Noodles and the order will be ready in 5 minutes");
+											break;
+										}
+									case 6:
+										{
+											System.out.println("You have choosen  Egg Manchurian and the order will be ready in 5 minutes");
+											break;
+										}	
+									case 7:
+										{
+											System.out.println("You have choosen  Chicken Manchurian and the order will be ready in 5 minutes");
+											break;
+										}					
+													
+								}
+								break;
+							}			
 					}
 					break;
 				}	
@@ -127,6 +178,7 @@ class menucard{
 				{
 					System.out.println("Select north as 1");
 					System.out.println("Select south as 2");
+					System.out.println("Select chinese as 3");
 					int b=sc.nextInt();
 					switch(b)
 					{
@@ -229,15 +281,62 @@ class menucard{
 										}					
 								}
 								break;
-							}	
+							}
+						case 3:
+							{
+								System.out.println("In North we have Veg Noodles -> 1");
+								System.out.println("In North we have Veg Fried Rice -> 2");
+								System.out.println("In North we have Gobi Manchurian -> 3");
+								System.out.println("In North we have Paneer Fried Rice -> 4");
+								System.out.println("In North we have Paneer Noodles -> 5");
+								System.out.println("In North we have Mushroom Noodles -> 6");
+								System.out.println("In North we have Mushroom Fried Rice -> 7");
+								int c=sc.nextInt();
+								switch(c)
+								{
+									case 1:
+										{
+											System.out.println("You have choosen Veg Noodles and the order will be ready in 5 minutes");
+											break;
+										}
+									case 2:
+										{
+											System.out.println("You have choosen Veg Fried Rice and the order will be ready in 5 minutes");
+											break;
+										}
+									case 3:
+										{
+											System.out.println("You have choosen Gobi Manchurian and the order will be ready in 5 minutes");
+											break;
+										}	
+									case 4:
+										{
+											System.out.println("You have choosen Paneer Fried Rice and the order will be ready in 5 minutes");
+											break;
+										}
+									case 5:
+										{
+											System.out.println("You have choosen Paneer Noodles and the order will be ready in 5 minutes");
+											break;
+										}	
+									case 6:
+										{
+											System.out.println("You have choosen Mushroom Noodles and the order will be ready in 5 minutes");
+											break;
+										}	
+									case 7:
+										{
+											System.out.println("You have choosen Mushroom Fried Rice and the order will be ready in 5 minutes");
+											break;
+										}							
+								}
+								break;
+							}		
 					}
 					break;
 
 				}
-			case 3 :
-				{
-					break;
-				}
+			
 
 					
 		}
