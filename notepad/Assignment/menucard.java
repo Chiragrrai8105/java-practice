@@ -136,6 +136,10 @@ class menucard{
 								System.out.println("In North we have paneer butter Masala -> 1");
 								System.out.println("In North we have  Dal Makhani -> 2");
 								System.out.println("In North we have Baingan Bharta  -> 3");
+								System.out.println("In North we have Paneer Tikka  -> 4");
+								System.out.println("In North we have Malai Kofta  -> 5");
+								System.out.println("In North we have Aloo Gobi -> 6");
+								System.out.println("In North we have Chole Masala  -> 7");
 								int c=sc.nextInt();
 								switch(c)
 								{
@@ -153,7 +157,27 @@ class menucard{
 										{
 											System.out.println("You have choosen Baingan Barta and the order will be ready in 5 minutes");
 											break;
-										}		
+										}	
+									case 4:
+										{
+											System.out.println("You have choosen Paneer Tikka and the order will be ready in 5 minutes");
+											break;
+										}
+									case 5:
+										{
+											System.out.println("You have choosen Malai Kofta and the order will be ready in 5 minutes");
+											break;
+										}	
+									case 6:
+										{
+											System.out.println("You have choosen Aloo Gobi and the order will be ready in 5 minutes");
+											break;
+										}	
+									case 7:
+										{
+											System.out.println("You have choosen Chole Masala and the order will be ready in 5 minutes");
+											break;
+										}							
 								}
 								break;
 							}
