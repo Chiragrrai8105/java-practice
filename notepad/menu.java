@@ -31,8 +31,40 @@ class menu {
 				if(amount==30)
 				{
 					System.out.println("Amount paid");
+					System.out.println("Red rose");
+			
+
 				else{
 				System.out.println("Incorrect amount and pay the correct amount");
+				}
+			}
+			case 2: 
+		{
+			System.out.println("You have choosen Barbie doll of worth 200");
+			System.out.println("Are you my friend");
+			System.out.println("1 Yes");
+			System.out.println("2 No");
+			int ch=sc.nextInt();
+			switch(ch){
+			case 1:
+			{
+				System.out.println("barbie doll");
+			}
+			case 2:
+			{
+				System.out.println("pay the amount of 200");
+				int amount=sc.nextInt();
+				if(amount==200)
+				{
+					System.out.println("Amount paid");
+					System.out.println("Barbie doll");
+			
+
+				else{
+				System.out.println("Incorrect amount and pay the correct amount");
+				}
+			}
+
 			
 
 			
