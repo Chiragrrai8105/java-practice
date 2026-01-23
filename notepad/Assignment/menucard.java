@@ -6,6 +6,7 @@ class menucard{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("1 Non veg");
 		System.out.println("2 veg");
+		System.out.println(" press 3 to Exit menu card");
 		System.out.println("Enter the choice");
 		int a=sc.nextInt();
 		switch(a)
@@ -14,14 +15,18 @@ class menucard{
 				{
 					System.out.println("Select north as 1");
 					System.out.println("Select south as 2");
+					System.out.println("Select chinese as 3");
 					int b=sc.nextInt();
 					switch(b)
 					{
 						case 1:
 							{
 								System.out.println("In North we have Tandoori kofta chicken -> 1");
-								System.out.println("In North we have  kadai chicken -> 2");
-								System.out.println("In North we have hariyali chicken  -> 3");
+								System.out.println("In North we have  Kadai chicken -> 2");
+								System.out.println("In North we have Hariyali chicken  -> 3");
+								System.out.println("In North we have Butter chicken  -> 4");
+								System.out.println("In North we have Mutton kabeb  -> 5");
+								System.out.println("In North we have Mutton korma  -> 6");	
 								int c=sc.nextInt();
 								switch(c)
 								{
@@ -39,8 +44,24 @@ class menucard{
 										{
 											System.out.println("You have choosen Hariyali chicken and the order will be ready in 5 minutes");
 											break;
-										}		
+										}
+									case 4:
+										{
+											System.out.println("You have choosen Butter chicken and the order will be ready in 5 minutes");
+											break;
+										}
+									case 5:
+										{
+											System.out.println("You have choosen Mutton Kabeb and the order will be ready in 5 minutes");
+											break;
+										}
+									case 6:
+										{
+											System.out.println("You have choosen Mutton Korma and the order will be ready in 5 minutes");
+											break;
+										}					
 								}
+								break;
 							}
 						case 2:
 							{
@@ -66,8 +87,10 @@ class menucard{
 											break;
 										}		
 								}
+								break;
 							}	
 					}
+					break;
 				}	
 
 			case 2:
@@ -101,6 +124,7 @@ class menucard{
 											break;
 										}		
 								}
+								break;
 							}
 						case 2:
 							{
@@ -126,11 +150,20 @@ class menucard{
 											break;
 										}		
 								}
+								break;
 							}	
 					}
+					break;
 
-				}	
+				}
+			case 3 :
+				{
+					break;
+				}
+
+					
 		}
+			
 		
 		
 }
