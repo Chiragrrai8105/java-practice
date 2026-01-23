@@ -7,6 +7,7 @@ class switch {
 		System.out.println("2 Deposit");
 		System.out.println("3 checkbalance");
 		System.out.println("4 Exit");
+		Scanner sc = new Scanner();
 		int choice = sc.nextInt();
 		switch(choice){
 		case 1: 
