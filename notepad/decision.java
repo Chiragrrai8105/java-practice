@@ -14,11 +14,15 @@ class decision {
     }*/
     if (budget<500)
     {
-        System.out.println(can buy items);
+        System.out.println("can buy items");
     }
-    else if ( budget>1000)
+    else if ( budget>=1000)
     {
         System.out.println("cannot buy itmes");
+    }
+    else
+    {
+        System.out.println("Dont go to restaurant");
     }
     }
 }
