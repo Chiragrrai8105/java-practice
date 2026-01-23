@@ -63,21 +63,7 @@ class menu {
 				else{
 				System.out.println("Incorrect amount and pay the correct amount");
 				}
-			}
-
-			
-
-			
-
-			
-
-				
-			
-
-			
-
-			
-		
+			}	
 		
 }
 }
