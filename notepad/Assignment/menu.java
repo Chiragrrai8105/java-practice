@@ -24,7 +24,18 @@ class  {
 								int c=sc.nextInt();
 								switch(c)
 								{
-									
+									case 1:
+										{
+											System.out.println("You have choosen Tandoori kofta chicken and the order will be ready in 5 minutes");
+										}
+									case 2:
+										{
+											System.out.println("You have choosen kadai chicken and the order will be ready in 5 minutes");
+										}
+									case 3:
+										{
+											System.out.println("You have choosen Hariyali chicken and the order will be ready in 5 minutes");
+										}		
 								}
 							}
 					}
