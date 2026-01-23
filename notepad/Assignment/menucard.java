@@ -6,7 +6,6 @@ class menucard{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("1 Non veg");
 		System.out.println("2 veg");
-		System.out.println(" press 3 to Exit menu card");
 		System.out.println("Enter the choice");
 		int a=sc.nextInt();
 		switch(a)
@@ -186,6 +185,10 @@ class menucard{
 								System.out.println("In South we have Rice Sambar -> 1");
 								System.out.println("In South we have Sweet Pongal -> 2");
 								System.out.println("In South we have Masala Dosa -> 3");
+								System.out.println("In South we have Onion Dosa -> 4");
+								System.out.println("In South we have Medu Vada -> 5");
+								System.out.println("In South we have Appam -> 6");
+								System.out.println("In South we have Bisi Bele Bath -> 7");
 								int c=sc.nextInt();
 								switch(c)
 								{
@@ -203,7 +206,27 @@ class menucard{
 										{
 											System.out.println("You have choosen  Masala Dosa and the order will be ready in 5 minutes");
 											break;
-										}		
+										}	
+									case 4:
+										{
+											System.out.println("You have choosen Onion Dosa and the order will be ready in 5 minutes");
+											break;
+										}
+									case 5:
+										{
+											System.out.println("You have choosen  Medu Vada and the order will be ready in 5 minutes");
+											break;
+										}
+									case 6:
+										{
+											System.out.println("You have choosen  Appam and the order will be ready in 5 minutes");
+											break;
+										}
+									case 7:
+										{
+											System.out.println("You have choosen  Bisi Bele Bath and the order will be ready in 5 minutes");
+											break;
+										}					
 								}
 								break;
 							}	
