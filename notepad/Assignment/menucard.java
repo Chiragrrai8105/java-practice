@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class  {
+class menucard{
 
 	public static void main(String[] args)
 	{	
@@ -12,7 +12,8 @@ class  {
 		{
 			case 1:
 				{
-					System.out.println("Select:-  north as 1 or south as 2");
+					System.out.println("Select north as 1");
+					System.out.println("Select south as 2");
 					int b=sc.nextInt();
 					switch(b)
 					{
@@ -38,6 +39,28 @@ class  {
 										}		
 								}
 							}
+						case 2:
+							{
+								System.out.println("In South we have Andra pepper chicken -> 1");
+								System.out.println("In South we have chicken sukka -> 2");
+								System.out.println("In South we have chicken chettinad  -> 3");
+								int c=sc.nextInt();
+								switch(c)
+								{
+									case 1:
+										{
+											System.out.println("You have choosen Tandoori kofta chicken and the order will be ready in 5 minutes");
+										}
+									case 2:
+										{
+											System.out.println("You have choosen kadai chicken and the order will be ready in 5 minutes");
+										}
+									case 3:
+										{
+											System.out.println("You have choosen Hariyali chicken and the order will be ready in 5 minutes");
+										}		
+								}
+							}	
 					}
 
 				}
