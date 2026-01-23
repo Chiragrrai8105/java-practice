@@ -27,6 +27,7 @@ class menucard{
 								System.out.println("In North we have Butter chicken  -> 4");
 								System.out.println("In North we have Mutton kabeb  -> 5");
 								System.out.println("In North we have Mutton korma  -> 6");	
+							    System.out.println("In North we have Amritsari Fish Fry  -> 7");	
 								int c=sc.nextInt();
 								switch(c)
 								{
@@ -59,7 +60,12 @@ class menucard{
 										{
 											System.out.println("You have choosen Mutton Korma and the order will be ready in 5 minutes");
 											break;
-										}					
+										}
+									case 7:
+										{
+											System.out.println("You have choosen Amritsari Fish Fry and the order will be ready in 5 minutes");
+											break;
+										}						
 								}
 								break;
 							}
@@ -68,6 +74,8 @@ class menucard{
 								System.out.println("In South we have Andra Pepper Chicken -> 1");
 								System.out.println("In South we have Chicken Sukka -> 2");
 								System.out.println("In South we have Chicken Chettinad  -> 3");
+								System.out.println("In South we have Chettinad Prawn Curry  -> 4");
+								System.out.println("In South we have Mutton Kola Urundai -> 5");
 								int c=sc.nextInt();
 								switch(c)
 								{
