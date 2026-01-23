@@ -7,11 +7,17 @@ class loop {
 		System.out.println("Hi");
 	}*/
 	int i=1;
-	while(i<=5)
+	/*while(i<=5)
 	{
 	System.out.println("hi chirag");
 	i++;
-	}
+	}*/
+	do
+	{
+	System.out.println("hi chirag");
+	i++;
+	}while(i<=5);
+
 	
 
 }
