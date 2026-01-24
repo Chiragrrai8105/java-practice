@@ -14,6 +14,11 @@ class returntype {
 	System.out.println("By chirag");
 	return "Hi this is lovly girl....";
 	}
+	public static void loverboy(){
+	System.out.println(wowwwww");
+	System.out.println("By chirag");
+	return "Hi this is lovly girl....";
+	}
 
 
 public static void main(String[] args)
@@ -22,6 +27,7 @@ public static void main(String[] args)
 	int rs=loveletter();
 	byte s=love();
 	String msg=lover();
+	loverboy();
 	System.out.println("Amount from Lover"+rs);
 	System.out.println("Amount from Lover"+s);
 	System.out.println("message from Lover"+msg);
