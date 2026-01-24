@@ -15,7 +15,7 @@ class returntype {
 	return "Hi this is lovly girl....";
 	}
 	public static void loverboy(){
-	System.out.println(wowwwww");
+	System.out.println("wowwwww");
 	System.out.println("By chirag");
 	return "Hi this is lovly girl....";
 	}
