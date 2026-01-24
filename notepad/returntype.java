@@ -24,7 +24,7 @@ public static void main(String[] args)
 	String msg=lover();
 	System.out.println("Amount from Lover"+rs);
 	System.out.println("Amount from Lover"+s);
-	System.out.println("Amount from Lover"+msg);
+	System.out.println("message from Lover"+msg);
 
 
 }
