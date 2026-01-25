@@ -130,7 +130,6 @@ class hw{
 			}
 			if(bool==false)
 			System.out.println(i);
-			p--;
 		}		
 	}
 	public static void main(String[] args)
