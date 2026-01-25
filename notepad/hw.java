@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class hw{
 	public static void prime(int n)
 	{
@@ -22,5 +23,11 @@ class hw{
 				System.out.println("Not prime number");
 			}
 		}
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Press 1 to use prime function");
+		int ch=sc.nextInt();
 	}
 }							
