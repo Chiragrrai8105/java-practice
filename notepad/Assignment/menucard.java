@@ -336,12 +336,8 @@ class menucard{
 					break;
 
 				}
-			
-
 					
-		}
-			
-		
+		}		
 		
 }
 }
