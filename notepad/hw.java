@@ -26,18 +26,13 @@ class hw{
 	}
 	public static void notes(int m)
 	{
-		int twothousand=0,onethousand=0,fivehundred=0,hundred=0,fifty=0,twenty=0,ten=0,five=0,two=0,one=0;
+		int twothousand=0,fivehundred=0,hundred=0,fifty=0,twenty=0,ten=0,five=0,two=0,one=0;
 		while(m>0)
 		{
 			while(m>=2000)
 			{
 				twothousand++;
 				m-=2000;
-			}
-			while(m>=1000)
-			{
-				onethousand++;
-				m-=1000;				
 			}
 			while(m>=500)
 			{
@@ -79,12 +74,22 @@ class hw{
 				one++;
 				m=-1;
 			}
+			System.out.println("Two thousand Rupee note :-"+twothousand);
+			System.out.println("Five hundred Rupee note :-"+fivehundred);
+			System.out.println("Hundred Rupeenote :-"+hundred);
+			System.out.println("Fifty Rupee note :-"+fifty);
+			System.out.println("Twenty Rupee note :-"+twenty);
+			System.out.println("Ten Rupee note :-"+ten);
+			System.out.println("Five Rupee note :-"+five);
+			System.out.println("Two Rupee note :-"+two);
+			System.out.println("One Rupee note :-"+one);
 		}
 	}
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press 1 to use prime function");
+		System.out.println("Press 2 to Note counting function");
 		int ch=sc.nextInt();
 		switch(ch)
 		{
@@ -93,6 +98,13 @@ class hw{
 					System.out.println("Enter the number");
 					int pr=sc.nextInt();
 					prime(pr);
+					break;
+				}
+				case 2:
+				{
+					System.out.println("Enter the number");
+					int nt=sc.nextInt();
+					notes(nt);
 					break;
 				}
 			default :
