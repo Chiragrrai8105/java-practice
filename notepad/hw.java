@@ -114,9 +114,10 @@ class hw{
 	}
 	public static void seqprime(int p)
 	{
-		for(int i=p;i>0;i--)
-		{	boolean bool = false;
-			for(int h=2;h<=p-1;h++)
+		for(int i=p;i>1;i--)
+		{
+			boolean bool = false;
+			for(int h=2;h<=i-1;h++)
 			{
 				if(i%h==0)
 				{
