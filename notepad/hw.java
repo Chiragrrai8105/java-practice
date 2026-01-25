@@ -24,6 +24,63 @@ class hw{
 				System.out.println("prime number");
 			}
 	}
+	public static void notes(int m)
+	{
+		int twothousand=0,onethousand=0,fivehundred=0,hundred=0,fifty=0,twenty=0,ten=0,five=0,two=0,one=0;
+		while(m>0)
+		{
+			while(m>=2000)
+			{
+				twothousand++;
+				m-=2000;
+			}
+			while(m>=1000)
+			{
+				onethousand++;
+				m-=1000;				
+			}
+			while(m>=500)
+			{
+				fivehundred++;
+				m-=500;
+			}
+			while(m>=100)
+			{
+				hundred++;
+				m-=100;
+			}
+			while(m>=50)
+			{
+				fifty++;
+				m-=50;
+			}
+			while(m>=20)
+			{
+				twenty++;
+				m-=20;
+			}
+			while(m>=10)
+			{
+				ten++;
+				m-=10;
+			}
+			while(m>=5)
+			{
+				five++;
+				m-=5;
+			}
+			while(m>=2)
+			{
+				two++;
+				m=-2;
+			}
+			while(m>=1)
+			{
+				one++;
+				m=-1;
+			}
+		}
+	}
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
