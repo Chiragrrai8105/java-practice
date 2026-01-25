@@ -133,13 +133,43 @@ class hw{
 			System.out.println(i);
 		}		
 	}
+	public static void happynumber(int num)
+	{
+		int sum=0;
+		while(num!=0)
+		{
+			int last=num%10;
+			sum+=last*last;
+			num/=10;
+		}
+		if(num==0)
+		{
+			if(sum<=9)
+			{
+				if(sum==1)
+				{
+					System.out.println("Happy number");
+				}
+				else
+				{
+					System.out.println("Not Happy number");
+				}
+			}
+		}
+		else
+		{
+			num=sum;
+			sum=0;
+		}
+	}
 	
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press 1 to use prime function");
 		System.out.println("Press 2 to Note counting function");
-		System.out.println("Press 3 to Prime number till N function in descending order");
+		System.out.println("Press 3 to Prime number");
+		System.out.println("Press 4 to check happy number or not");
 		int ch=sc.nextInt();
 		switch(ch)
 		{
@@ -162,6 +192,13 @@ class hw{
 					System.out.println("Enter the number");
 					int spd=sc.nextInt();
 					seqprimedsc(spd);
+					break;
+				}
+				case 4:
+				{
+					System.out.println("Enter the number");
+					int happy=sc.nextInt();
+					happynumber(happy);
 					break;
 				}
 			default :
