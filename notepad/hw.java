@@ -16,11 +16,11 @@ class hw{
 			}
 			if(bool==true)
 			{
-				System.out.println("Prime number");
+				System.out.println("Not Prime number");
 			}
 			else
 			{
-				System.out.println("Not prime number");
+				System.out.println("prime number");
 			}
 		}
 	}
