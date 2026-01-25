@@ -74,15 +74,42 @@ class hw{
 				one++;
 				m=-1;
 			}
-			System.out.println("Two thousand Rupee note :-"+twothousand);
-			System.out.println("Five hundred Rupee note :-"+fivehundred);
-			System.out.println("Hundred Rupeenote :-"+hundred);
-			System.out.println("Fifty Rupee note :-"+fifty);
-			System.out.println("Twenty Rupee note :-"+twenty);
-			System.out.println("Ten Rupee note :-"+ten);
-			System.out.println("Five Rupee note :-"+five);
-			System.out.println("Two Rupee note :-"+two);
-			System.out.println("One Rupee note :-"+one);
+			if(twothousand>0)
+			{
+				System.out.println("Two thousand Rupee note :-"+twothousand);
+			}
+			 else if(fivehundred>0)
+			{
+				System.out.println("Five hundred Rupee note :-"+fivehundred);
+			}
+			else if(hundred>0)
+			{
+				System.out.println("Hundred Rupeenote :-"+hundred);
+			}
+			else if(fifty>0)
+			{
+				System.out.println("Fifty Rupee note :-"+fifty);
+			}
+			else if(twenty>0)
+			{
+				System.out.println("Twenty Rupee note :-"+twenty);
+			}
+			else if(ten>0)
+			{
+				System.out.println("Ten Rupee note :-"+ten);
+			}
+			else if(five>0)
+			{
+				System.out.println("Five Rupee note :-"+five);
+			}
+			else if(two>0)
+			{
+				System.out.println("Two Rupee note :-"+two);
+			}
+			else if(one>0)
+			{
+				System.out.println("One Rupee note :-"+one);
+			}
 		}
 	}
 	public static void main(String[] args)
