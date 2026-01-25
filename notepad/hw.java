@@ -29,5 +29,21 @@ class hw{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press 1 to use prime function");
 		int ch=sc.nextInt();
+		switch(ch)
+		{
+			case 1:
+				{
+					System.out.println("Enter the number");
+					int pr=sc.nextInt();
+					prime(pr);
+					break;
+				}
+			default :
+			{
+				System.out.println("Invalid choice");
+				break;
+			}
+			
+		}
 	}
 }							
