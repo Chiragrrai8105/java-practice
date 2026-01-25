@@ -115,12 +115,12 @@ class hw{
 	public static void seqprime(int p)
 	{
 		for(int i=p;i>0;i--)
-		{
-			for(int h=2;h<p-1;h++)
+		{	boolean bool = false;
+			for(int h=2;h<=p-1;h++)
 			{
-				if(i%h!=0)
+				if(i%h==0)
 				{
-					System.out.println(i);
+					bool=true;
 					break;
 				}
 			}
