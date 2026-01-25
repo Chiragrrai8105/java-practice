@@ -138,7 +138,7 @@ class hw{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press 1 to use prime function");
 		System.out.println("Press 2 to Note counting function");
-		System.out.println("Press 3 to Prime number till N function");
+		System.out.println("Press 3 to Prime number till N function in descending order");
 		int ch=sc.nextInt();
 		switch(ch)
 		{
