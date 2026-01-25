@@ -123,7 +123,13 @@ class hw{
 					bool=true;
 					break;
 				}
+				else
+				{
+					bool = false;
+				}
 			}
+			if(bool==false)
+			System.out.println(i);
 			p--;
 		}		
 	}
