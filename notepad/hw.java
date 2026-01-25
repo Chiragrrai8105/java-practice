@@ -112,11 +112,25 @@ class hw{
 			}
 		}
 	}
+	public static void seqprime(int p)
+	{
+		for(int i=p;i>0;i--)
+		{
+			for(int h=2;h<p-1;h++)
+			{
+				if(p%h!=0)
+				{
+					System.out.println(i);
+				}
+			}
+		}		
+	}
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press 1 to use prime function");
 		System.out.println("Press 2 to Note counting function");
+		System.out.println("Press 3 to Prime number till N function");
 		int ch=sc.nextInt();
 		switch(ch)
 		{
@@ -132,6 +146,13 @@ class hw{
 					System.out.println("Enter the number");
 					int nt=sc.nextInt();
 					notes(nt);
+					break;
+				}
+				case 3:
+				{
+					System.out.println("Enter the number");
+					int sp=sc.nextInt();
+					seqprime(sp);
 					break;
 				}
 			default :
