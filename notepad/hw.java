@@ -14,6 +14,7 @@ class hw{
 			{
 				bool=false;
 			}
+		}	
 			if(bool==true)
 			{
 				System.out.println("Not Prime number");
@@ -22,7 +23,6 @@ class hw{
 			{
 				System.out.println("prime number");
 			}
-		}
 	}
 	public static void main(String[] args)
 	{
