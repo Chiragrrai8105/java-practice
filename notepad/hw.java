@@ -118,11 +118,13 @@ class hw{
 		{
 			for(int h=2;h<p-1;h++)
 			{
-				if(p%h!=0)
+				if(i%h!=0)
 				{
 					System.out.println(i);
+					break;
 				}
 			}
+			p--;
 		}		
 	}
 	public static void main(String[] args)
