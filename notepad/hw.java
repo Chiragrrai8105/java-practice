@@ -133,39 +133,13 @@ class hw{
 			System.out.println(i);
 		}		
 	}
-	public static void seqprimeasc(int q)
-	{
-		int[] arr=new int[q];
-		for(int i=q;i>1;i--)
-		{
-			boolean bool = false;
-			for(int h=2;h<=i-1;h++)
-			{
-				if(i%h==0)
-				{
-					bool=true;
-					break;
-				}
-				else
-				{
-					bool = false;
-				}
-			}
-			if(bool==false)
-			{
-				arr[q]=i;	
-			}		
-			for(int k=0;k<q;k++)
-			System.out.println(arr[k+1]);
-		}		
-	}
+	
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Press 1 to use prime function");
 		System.out.println("Press 2 to Note counting function");
 		System.out.println("Press 3 to Prime number till N function in descending order");
-		System.out.println("Press 4 to Prime number till N function in ascending order");
 		int ch=sc.nextInt();
 		switch(ch)
 		{
@@ -188,13 +162,6 @@ class hw{
 					System.out.println("Enter the number");
 					int spd=sc.nextInt();
 					seqprimedsc(spd);
-					break;
-				}
-				case 4:
-				{
-					System.out.println("Enter the number");
-					int spa=sc.nextInt();
-					seqprimeasc(spa);
 					break;
 				}
 			default :
