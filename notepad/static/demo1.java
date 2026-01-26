@@ -1,4 +1,11 @@
 
+class demo1
+{
+    public static void main(String[] args)
+    {
+        demo.chirag();
+    }
+}
 class demo
 {
     public static void chirag()
