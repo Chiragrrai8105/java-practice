@@ -180,8 +180,7 @@ class menucard{
 										{
 											System.out.println("Invalid food");
 											break;
-										}				
-													
+										}								
 								}
 								break;
 							}			
@@ -243,7 +242,12 @@ class menucard{
 										{
 											System.out.println("You have choosen Chole Masala and the order will be ready in 5 minutes");
 											break;
-										}							
+										}
+										default : 
+										{
+											System.out.println("Invalid food");
+											break;
+										}
 								}
 								break;
 							}
