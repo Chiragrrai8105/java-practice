@@ -297,7 +297,12 @@ class menucard{
 										{
 											System.out.println("You have choosen  Bisi Bele Bath and the order will be ready in 5 minutes");
 											break;
-										}					
+										}	
+										default : 
+										{
+											System.out.println("Invalid food");
+											break;
+										}				
 								}
 								break;
 							}
