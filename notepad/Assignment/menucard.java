@@ -352,7 +352,12 @@ class menucard{
 										{
 											System.out.println("You have choosen Mushroom Fried Rice and the order will be ready in 5 minutes");
 											break;
-										}							
+										}	
+										default : 
+										{
+											System.out.println("Invalid food");
+											break;
+										}						
 								}
 								break;
 							}		
