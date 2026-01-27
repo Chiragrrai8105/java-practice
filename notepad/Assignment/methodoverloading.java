@@ -28,6 +28,10 @@ class methodoverloading
     {
         System.out.println(m);
     }
+     static void printData(String m)
+    {
+        System.out.println(m);
+    }
     public static void main(String[] args)
     {
         sum(1);
@@ -37,5 +41,6 @@ class methodoverloading
         sum('c');
         printData('A');
         printData(1);
+        printData("custom print method");
     }
 }
