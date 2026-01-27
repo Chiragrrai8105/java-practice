@@ -12,10 +12,20 @@ class methodoverloading
     {
         System.out.println("chirag with 3 parameter");
     }
+    public static void sum(String m)
+    {
+        System.out.println("chirag with string parameter");
+    }
+     public static void sum(char m)
+    {
+        System.out.println("chirag with character parameter");
+    }
     public static void main(String[] args)
     {
         sum(1);
         sum(1,2);
         sum(1,2,3);
+        sum("hi");
+        sum('c');
     }
 }
