@@ -1,6 +1,6 @@
 class arraydemo
 {
-    public static void demo(int ar [])
+    public void demo(int ar [])
     {
         for(int i=0;i<ar.length;i++)
         {
@@ -10,6 +10,8 @@ class arraydemo
     public static void main(String[] args)
     {
         int ar[]={1,2,3};
-        demo(ar);
+        arraydemo obj = new arraydemo();
+        obj.demo(ar);
+
     }
 }
