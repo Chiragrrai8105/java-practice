@@ -16,14 +16,15 @@ class array
             name[i]="chirag";
             System.out.println(name[i]);
         }*/
-       for (int i=1;i<=5;i++)
+       for (int i=1;i<=name.length-1;i++)
         {
             System.out.println("Enter the name of" +i+ "person");
             name[i]=sc.nextLine();
         }
-        for(int i=0;i<5;i++)
+        for(int i=0;i<name.length-1;i++)
         {
             System.out.println(name[i]);
         }
+        System.out.println("Length of array is "+(name.length-1));
     }
 }
