@@ -8,7 +8,7 @@ class returnarray
     public static void main(String[] args)
     {
         int ar[]=demo();
-        for(int i=0;i<ar.length;i++)
+        for(int i=0;i<ar.length ;i++)
         System.out.println(ar[i]);
     }
 }
