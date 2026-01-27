@@ -19,6 +19,14 @@ class armstrong
             num2=num2^count;
             num3=num3+num2;
         }
-        if
+        System.out.println(num3);
+        if(num3==num)
+        {
+            System.out.println("Armstrong");
+        }
+        else
+        {
+            System.out.println("Not Armstrong");
+        }
     }
 }
