@@ -8,9 +8,14 @@ class methodoverloading
     {
         System.out.println("chirag with 2 parameter");
     }
+      public static void sum(int m,int n,int p)
+    {
+        System.out.println("chirag with 3 parameter");
+    }
     public static void main(String[] args)
     {
         sum(1);
         sum(1,2);
+        sum(1,2,3);
     }
 }
