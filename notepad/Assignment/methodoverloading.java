@@ -20,6 +20,10 @@ class methodoverloading
     {
         System.out.println("chirag with character parameter");
     }
+    static void printData(char m)
+    {
+        System.out.println(m);
+    }
     public static void main(String[] args)
     {
         sum(1);
@@ -27,5 +31,6 @@ class methodoverloading
         sum(1,2,3);
         sum("hi");
         sum('c');
+        printData('A');
     }
 }
