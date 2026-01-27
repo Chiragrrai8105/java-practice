@@ -16,9 +16,13 @@ class armstrong
         }
         while(result>0)
         {
+            int pow=1;
             int num2=result%10;
-            num2=num2^count;
-            num3=num3+num2;
+            for(int i=1;i<=count;i++)
+            {
+            pow*=num2;
+            }
+            num3=num3+pow;
             result/=10;
         }
         System.out.println(num3);
