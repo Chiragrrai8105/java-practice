@@ -26,5 +26,6 @@ class array
             System.out.println(name[i]);
         }
         System.out.println("Length of array is "+(name.length-1));
+        for(String i : name)System.out.println(i);
     }
 }
