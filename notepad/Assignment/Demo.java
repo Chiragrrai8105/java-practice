@@ -1,13 +1,14 @@
 class Demo
 {
-    public static demo objref(demo ref)
+    public static Demo objref(Demo ref)
     {
-        System.out.println(ref);
+        return ref;
     }
     public static void main(String[] args)
     {
-        objectref d = new objectref();
-        System.out.println(d);
-        demo(d);
+        Demo d = new Demo();
+        //System.out.println(d);
+        Demo d1 = objref(d);
+        System.err.println(d1);
     }
 }
