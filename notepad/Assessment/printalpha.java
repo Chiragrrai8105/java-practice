@@ -4,9 +4,9 @@ class printalpha
     {   int a=1;
         for(char i='A';i<='Z';i++)
         {
+            System.out.print(a +":");
             System.out.println(i);
             a++;
-            System.out.println(a);
 
         }
     }   
@@ -14,5 +14,8 @@ class printalpha
     {
         return new printalpha();
     }
+    public static void main(String[] args)
+    {
+        obj().demo();
     }
 }
