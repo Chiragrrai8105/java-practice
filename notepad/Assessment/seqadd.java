@@ -18,7 +18,7 @@ class seqadd
                 }
                 ar[i]=d; 
             }
-            br[i]=sc.nextInt();
+            br[i]=ar[i];
             System.out.println(br[i]);
         }  
     }
