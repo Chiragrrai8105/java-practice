@@ -22,12 +22,17 @@ class BOOK
             System.out.println("Page Number"+book1.pagenumber);
             System.out.println("Publisher"+book1.publisher);
             System.out.println("Book Origin"+book1.origin);
-            ashith.name="Ashith Rai";
-            ashith.id=101;
-            ashith.sal=1000001;
-            System.out.println("--------------------");
-            System.out.println("Name"+ashith.name);
-            System.out.println("ID"+ashith.id);
-            System.out.println("Salary"+ashith.sal);
+            book2.bookname="ONE PAGE";
+            book2.bookauthor="Chirag Rai";
+            book2.id=101;
+            book2.pagenumber=500;
+            book2.publisher="Google";
+            book2.origin="India";
+            System.out.println("Book Name"+book2.bookname);
+            System.out.println("Book Author"+book2.bookauthor);
+            System.out.println("Book ID"+book2.id);
+            System.out.println("Page Number"+book2.pagenumber);
+            System.out.println("Publisher"+book2.publisher);
+            System.out.println("Book Origin"+book2.origin);
     }
 }
