@@ -8,7 +8,7 @@ class seqadd
         for(int i=0;i<n;i++)
         {   
             int d=0;
-            while(ar[i]<=9)
+            while(ar[i]>=10)
             {
                 while(ar[i]>0)
                 {
