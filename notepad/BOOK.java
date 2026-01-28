@@ -23,11 +23,11 @@ class BOOK
             System.out.println("Publisher"+book1.publisher);
             System.out.println("Book Origin"+book1.origin);
             book2.bookname="ONE PAGE";
-            book2.bookauthor="Chirag Rai";
-            book2.id=101;
-            book2.pagenumber=500;
+            book2.bookauthor="Akshar Rai";
+            book2.id=102;
+            book2.pagenumber=600;
             book2.publisher="Google";
-            book2.origin="India";
+            book2.origin="Russia";
             System.out.println("Book Name"+book2.bookname);
             System.out.println("Book Author"+book2.bookauthor);
             System.out.println("Book ID"+book2.id);
