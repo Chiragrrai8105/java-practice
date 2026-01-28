@@ -1,0 +1,20 @@
+class parametrized
+{
+    int id;
+    String name;
+    int age;
+    String gender;
+         parametrized(int id1,String name1,int age1,String gender1){
+            id=id1;
+            name=name1;
+            age=age1;
+            gender=gender1;
+         }
+    public static void main(String[] args)
+    {
+        parametrized chirag = new parametrized(101,"chirag",21,"Male");
+        System.out.println("Name "+chirag.id);
+    }
+
+    
+}
