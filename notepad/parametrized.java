@@ -6,7 +6,7 @@ class parametrized
     String gender;
          parametrized(int id1,String name1,int age1,String gender1){
             id=id1;
-            name=name1;
+            name=name1; // if name=name then use keyword "this".
             age=age1;
             gender=gender1;
          }
