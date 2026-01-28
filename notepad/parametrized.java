@@ -5,7 +5,8 @@ class parametrized
     int age;
     String gender;
          parametrized(int id1,String name1,int age1,String gender1){
-            id=id1;
+            System.out.println("Enter the Age");
+            age = sc.nextInt();
             name=name1; // if name=name then use keyword "this".
             age=age1;
             gender=gender1;
