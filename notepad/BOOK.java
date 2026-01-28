@@ -9,7 +9,7 @@ class BOOK
     public static void main(String[] args)
     {
         BOOK book1 = new BOOK();
-        employee ashith = new employee();
+        BOOK book2 = new BOOK();
             book1.bookname="ONE PAGE";
             book1.bookauthor="Chirag Rai";
             book1.id=101;
