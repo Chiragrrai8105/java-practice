@@ -1,0 +1,20 @@
+class demo11
+{
+    public demo11(char ar[])
+    {
+        int d=0;
+        for(int i=0;i<10;i++)
+        {
+            int a =ar[i];
+            int b=a-64;
+            System.out.print(" "+b);
+            d=d+b;
+        }
+        System.out.println(" Sum: "+d);
+    }
+    public static void main(String[] args)
+    {
+        char ar[]={'D','I','S','C','I','P','L','I','N','E'};
+        demo11 d = new demo11(ar);
+    }
+}
