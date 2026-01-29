@@ -42,7 +42,9 @@ class amazon
      String uname=sc.nextLine();
      System.out.println("Enter the password");
      String upassword=sc.nextLine();
-     if(uname=="chirag"&&upassword=="1234")
+     String UNAME="chirag";
+     String UPASSWORD="1234";
+     if((uname.equals(UNAME))&&(upassword.equals(UPASSWORD))) //cant use == operator because == compares the object id
     {
         amazon chirag = new amazon(101,"Chirag Rai","puttur",21,"Male");
         amazon anvith = new amazon(102,"Anvith Chakote","Sullia",21,"Male");
