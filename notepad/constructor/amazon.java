@@ -20,13 +20,6 @@ class amazon
     }
     public void printdata()
     {
-     Scanner sc = new Scanner(System.in);   
-     System.out.println("Enter the Username");
-     String uname=sc.nextLine();
-     System.out.println("Enter the password");
-     String upassword=sc.nextLine();
-     if(uname=="chirag"&&upassword=="1234")
-    {
      if(age==0)
         {
         System.out.println("Seller ID: "+id);
@@ -40,14 +33,16 @@ class amazon
         System.out.println("user address: "+address);
         System.out.println("user Age: "+age);
         System.out.println("user Gender: "+gender);
-        } 
-    } 
-    else
-    {
-        System.out.println("Incorrect password or username");
-    }
+        }
     }
     public static void main(String[] args)
+    {
+     Scanner sc = new Scanner(System.in);   
+     System.out.println("Enter the Username");
+     String uname=sc.nextLine();
+     System.out.println("Enter the password");
+     String upassword=sc.nextLine();
+     if(uname=="chirag"&&upassword=="1234")
     {
         amazon chirag = new amazon(101,"Chirag Rai","puttur",21,"Male");
         amazon anvith = new amazon(102,"Anvith Chakote","Sullia",21,"Male");
@@ -57,6 +52,11 @@ class amazon
         anvith.printdata();
         System.out.println("--------------------");
         abhishek.printdata();
+    }  
+    else
+        {
+            System.out.println("Incorrect username and password");
+        }  
     }
 
 }
