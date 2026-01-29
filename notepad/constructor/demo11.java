@@ -12,9 +12,10 @@ class demo11
         }
         System.out.println(" Sum: "+d);
     }
+
     public static void main(String[] args)
     {
         char ar[]={'D','I','S','C','I','P','L','I','N','E'};
-        demo11 d = new demo11(ar);
+        demo11 e = new demo11(ar);
     }
 }
