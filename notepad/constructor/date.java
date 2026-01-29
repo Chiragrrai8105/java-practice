@@ -17,8 +17,12 @@ class date
             g+=f;
             b%=10;    
         }    
+        if(b!=g)
+        {
+            b=g;
+        }
         c/=1000000;
-        while(c>=9)
+        while(c>0)
             {
                 int d=c%10;
                 e+=d;
@@ -32,7 +36,8 @@ class date
             {
                 System.out.println("Not happy person");
             } 
-             System.out.println(e);  
+             System.out.println(e);
+             System.out.println(b);  
     }
     public static void main(String[] args)
     {
