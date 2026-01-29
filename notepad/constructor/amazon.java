@@ -1,26 +1,31 @@
-class Flipcart
+import java.util.Scanner;
+class amazon
 {   
     int id;
     String name;
     int age;
     String address;
     String gender;
-    public Flipcart(int id,String name,String address,int age,String gender)
-    {
-        this.id=id;
-        this.name=name;
-        this.address=address;
-        this.age=age;
-        this.gender=gender;
-
-    }
-     public Flipcart(int id,String name,String address)
+    public amazon(int id,String name,String address)
     {
          this.id=id;
         this.name=name;
         this.address=address;
     }    
+    public amazon(int id,String name,String address,int age,String gender)
+    {
+        this(id,name,address); // the upper constructor parameter and this parameter should be same.
+        this.gender=gender;
+        this.age=age;
+    }
     public void printdata()
+    {
+     Scanner sc = new Scanner(System.in);   
+     System.out.println("Enter the Username");
+     String uname=sc.nextLine();
+     System.out.println("Enter the password");
+     String upassword=sc.nextLine();
+     if(uname=="chirag"&&upassword=="1234")
     {
      if(age==0)
         {
@@ -35,14 +40,18 @@ class Flipcart
         System.out.println("user address: "+address);
         System.out.println("user Age: "+age);
         System.out.println("user Gender: "+gender);
-        }
-       
+        } 
+    } 
+    else
+    {
+        System.out.println("Incorrect password or username");
+    }
     }
     public static void main(String[] args)
     {
-        Flipcart chirag = new Flipcart(101,"Chirag Rai","puttur",21,"Male");
-        Flipcart anvith = new Flipcart(102,"Anvith Chakote","Sullya",21,"Male");
-        Flipcart abhishek = new Flipcart(202,"Abhishek","Delhi");
+        amazon chirag = new amazon(101,"Chirag Rai","puttur",21,"Male");
+        amazon anvith = new amazon(102,"Anvith Chakote","Sullia",21,"Male");
+        amazon abhishek = new amazon(202,"Abhishek","Delhi");
         chirag.printdata();
         System.out.println("--------------------");
         anvith.printdata();
