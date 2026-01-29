@@ -11,16 +11,19 @@ class date
             b+=a;
             n/=10;
         }
-       while(b>=9)
+        if(b>=9)
         {
-            int f=b%10;
-            g+=f;
-            b%=10;    
-        }    
-        if(b!=g)
-        {
-            b=g;
-        }
+        while(b>=9)
+            {
+                int f=b%10;
+                g+=f;
+                b%=10; 
+            }      
+            if(b!=g)
+            {
+                b=g;
+            }
+        }  
         c/=1000000;
         while(c>0)
             {
@@ -28,7 +31,7 @@ class date
                 e+=d;
                 c/=10;
             }
-        if(b==e||g==e)
+        if((b+1)==e)
             {
                 System.out.println("lucky person");
             }    
@@ -37,7 +40,7 @@ class date
                 System.out.println("Not happy person");
             } 
              System.out.println(e);
-             System.out.println(b);  
+             System.out.println((b+1));  
     }
     public static void main(String[] args)
     {
