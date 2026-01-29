@@ -27,7 +27,7 @@ class Flipcart
         System.out.println("Seller ID: "+id);
         System.out.println("Seller name: "+name);
         System.out.println("Seller address: "+address);
-        }
+        }-
      else
         {   
         System.out.println("User ID: "+id);
