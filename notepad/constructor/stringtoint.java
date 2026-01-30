@@ -3,13 +3,14 @@ class stringtoint
     public stringtoint(char ar[])
     {
         int d=0;
-        for(int i=0;i<10;i++)
+        for(int i=0;i<ar.length;i++)
         {
             int a =ar[i];
             int b=a-64;
             System.out.print(" "+b);
             d=d+b;
         }
+        System.out.println("");
         System.out.println(" Sum: "+d);
     }
 
