@@ -9,7 +9,7 @@ class initializer
     }
     {
         date();
-        System.out.println("Employees are ready");
+        System.out.println("Employees are ready");// both line are multi line initializer.
     }
     public static void main(String[] args) {
         {
