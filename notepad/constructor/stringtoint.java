@@ -1,6 +1,6 @@
-class demo11
+class stringtoint
 {
-    public demo11(char ar[])
+    public stringtoint(char ar[])
     {
         int d=0;
         for(int i=0;i<10;i++)
@@ -16,6 +16,6 @@ class demo11
     public static void main(String[] args)
     {
         char ar[]={'D','I','S','C','I','P','L','I','N','E'};
-        demo11 e = new demo11(ar);
+        stringtoint e = new stringtoint(ar);
     }
 }
