@@ -1,37 +1,37 @@
 import java.util.Scanner;
-class date
+class birthdate
 {
-    public date(int n)
+    public birthdate(int n)
     {
-        int b=0,e=0,g=0;
-        int c=n;
+        int rem=0,e=0,g=0;
+        int date=n;
         while(n>0)
         {
             int a=n%10;
-            b+=a;
+            rem+=a;
             n/=10;
         }
-        if(b>=9)
+        if(rem>=9)
         {
-        while(b>=9)
+        while(rem>=9)
             {
-                int f=b%10;
-                g+=f;
-                b%=10; 
+                int f=rem%10;
+                g=g+=f;
+                rem%=10; 
             }      
-            if(b!=g)
+            if(rem!=g)
             {
-                b=g;
+                rem=g;
             }
         }  
-        c/=1000000;
-        while(c>0)
+        date/=1000000;
+        while(date>0)
             {
-                int d=c%10;
+                int d=date%10;
                 e+=d;
-                c/=10;
+                date/=10;
             }
-        if((b+1)==e)
+        if((rem+1)==e)
             {
                 System.out.println("lucky person");
             }    
@@ -40,13 +40,13 @@ class date
                 System.out.println("Not happy person");
             } 
              System.out.println(e);
-             System.out.println((b+1));  
+             System.out.println((rem+1));  
     }
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the date");
         int n=sc.nextInt();
-        date rc = new date(n);
+        birthdate rc = new birthdate(n);
     }
 }
