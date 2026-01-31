@@ -1,4 +1,4 @@
-class ATM
+public class ATM
 {
     private int id;
     private double balance;

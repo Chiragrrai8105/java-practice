@@ -44,7 +44,7 @@ class emp
         System.out.println(sc.getname());
         sc.setsal(1010000);
         System.out.println(sc.getsal());
-        sc.setage(22);
+        sc.setage(20);
         System.out.println(sc.getage());
     }
 
