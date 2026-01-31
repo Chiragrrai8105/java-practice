@@ -24,16 +24,16 @@ class factor
         for(int k=0;k<j;k++)
         {
         System.out.print(" "+ar[k]);
-        int c=0;
+        int sum3=0;
         if(ar[k]>9)
         {
         while(ar[k]>0)
         {
-            int d=ar[k]%10;
-            c=d+c;
+            int rem2=ar[k]%10;
+            sum3=rem2+sum3;
             ar[k]/=10;
         }
-        ar[k]=c;
+        ar[k]=sum3;
         }
         }
         System.err.println("");
