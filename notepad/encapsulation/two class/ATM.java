@@ -17,7 +17,5 @@ class ATM
         ATM sc = new ATM();
         sc.setbalance(234.44);
         System.out.println(sc.getbalance(789));
-
     }
-
 }
