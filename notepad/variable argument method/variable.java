@@ -15,7 +15,6 @@ public class variable
         }
         System.out.println(name);
     }
-
     public static void main(String[] args)
     {
         sum("chirag",1,2,3,4);
