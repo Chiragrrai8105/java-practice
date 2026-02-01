@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class divide
 {
     public static void demo(int n)
@@ -25,5 +24,14 @@ public class divide
         }
         int a1=n%m;
         int a2=n/m;
+        int sum=a1+a2;
+        if(sum==n)
+        {
+            System.out.println("True");
+        }
+        else
+        {
+            System.out.println("False");
+        }
     }
 }
