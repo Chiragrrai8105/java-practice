@@ -34,4 +34,8 @@ public class divide
             System.out.println("False");
         }
     }
+    public static void main(String[] args)
+    {
+        demo(297);
+    }
 }
