@@ -3,7 +3,7 @@ public class divide
 {
     public static void demo(int n)
     {
-        int count=0;
+        int count=0,m=1;
         while(n>0)
         {
             int a=n%10;
@@ -19,6 +19,11 @@ public class divide
             count/=2;
             count++;
         }
-        
+        for(int i=0;i<count;i++)
+        {
+            m*=10;
+        }
+        int a1=n%m;
+        int a2=n/m;
     }
 }
