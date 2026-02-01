@@ -10,6 +10,15 @@ public class divide
             count++;
             n/=10;
         }
+        if(count%2==0)
+        {
+            count/=2;
+        }
+        else
+        {
+            count/=2;
+            count++;
+        }
         
     }
 }
