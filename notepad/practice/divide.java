@@ -1,31 +1,42 @@
+import java.util.Scanner;
 public class divide
 {
-    public static void demo(int n)
+    public static void demo(int num)
     {
-        int count=0,m=1;
-        while(n>0)
+        int count=0,mul=1;
+        int sq=num*num;
+        int sq1=sq;
+        System.out.println(sq);
+        while(sq>0)
         {
-            int a=n%10;
+            int rem=sq%10;
             count++;
-            n/=10;
+            sq/=10;
         }
+        System.out.println(count);
         if(count%2==0)
         {
             count/=2;
+            System.out.println(count);
         }
         else
         {
             count/=2;
             count++;
+            System.out.println(count);
         }
         for(int i=0;i<count;i++)
         {
-            m*=10;
+            mul*=10;
         }
-        int a1=n%m;
-        int a2=n/m;
-        int sum=a1+a2;
-        if(sum==n)
+        System.out.println(mul);
+        int sum1=sq1%mul;
+        int sum2=sq1/mul;
+        int sum=sum1+sum2;
+        System.out.println(sq1);
+        System.out.println(sum1);
+        System.out.println(sum2);
+        if(sum==num)
         {
             System.out.println("True");
         }
@@ -36,6 +47,9 @@ public class divide
     }
     public static void main(String[] args)
     {
-        demo(297);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num=sc.nextInt();
+        demo(num);
     }
 }
