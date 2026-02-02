@@ -8,15 +8,16 @@ public class summul
             n/=10;
             count++;
         }
-        int ar[] = new int[count];
-        while(n>0)
+        int ar[] = new int[count+1];
+        while(n1>0)
         {
-            int r=n%10;
+            int r=n1%10;
             ar[i]=r;
             i++;
-            n/=10;
+            n1/=10;
+           System.out.println(ar[i]);
         }
-        for (int j = 0; j < ar.length; j++)
+        /*for (int j =0; j <ar.length; j++)
         {
             if(j!=0 && j!=ar.length)
             {
@@ -27,8 +28,8 @@ public class summul
                 mul=mul*ar[i];
             }
         } 
-        System.err.println("SUM: "+sum);
-        System.out.println("MUL: "+mul);   
+        System.out.println("SUM: "+sum);
+        System.out.println("MUL: "+mul); */
     }
     public static void main(String[] args)
     {
