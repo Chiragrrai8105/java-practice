@@ -8,27 +8,19 @@ public class summul
             n/=10;
             count++;
         }
-        int ar[] = new int[count+1];
+        int ar[] = new int[count];
         while(n1>0)
         {
             int r=n1%10;
             ar[i]=r;
-            System.out.println(ar[i]);
             i++;
             n1/=10;
         }
-        for (int j =0; j <ar.length-1; j++)
+       for(int j=1;j<count-1;j++)
         {
-            System.out.println(ar[j]);
-            if(j!=0 && j!=ar.length-1)
-            {
-                sum=ar[i]+sum;
-            }
-            else
-            {
-                mul=mul*ar[i];
-            }
+            sum=ar[j]+sum;
         } 
+        mul=ar[0]*ar[count-1];
         System.out.println("SUM: "+sum);
         System.out.println("MUL: "+mul); 
     }
