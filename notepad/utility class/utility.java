@@ -1,11 +1,11 @@
 public class utility
 {
-    public static int dia(circle r)
+    public static int dia(circle c)
     {
-        return r.getradius()*2;
+        return 2*c.getradius();
     }
-    public static int area(circle r)
+    public static double area(circle c)
     {
-        return 3.14*c.getradius()*c.getradius();
+        return 3.14 * c.getradius() * c.getradius();
     }
 }

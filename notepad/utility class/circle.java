@@ -5,7 +5,7 @@ public class circle
     {
         this.radius=radius;
     }
-    public int getradius(int radius)
+    public int getradius()
     {
         return this.radius=radius;
     }
