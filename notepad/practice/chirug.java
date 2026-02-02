@@ -7,9 +7,9 @@ class chirug
         while(n1>0)        {
             int r=n1%10;
             ar[i]=r;
-            n1/=10;
            System.out.println(ar[i]);
            i++;
+             n1/=10;
         }
     }
 }

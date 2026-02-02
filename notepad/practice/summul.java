@@ -13,13 +13,14 @@ public class summul
         {
             int r=n1%10;
             ar[i]=r;
+            System.out.println(ar[i]);
             i++;
             n1/=10;
-           System.out.println(ar[i]);
         }
-        /*for (int j =0; j <ar.length; j++)
+        for (int j =0; j <ar.length-1; j++)
         {
-            if(j!=0 && j!=ar.length)
+            System.out.println(ar[j]);
+            if(j!=0 && j!=ar.length-1)
             {
                 sum=ar[i]+sum;
             }
@@ -29,7 +30,7 @@ public class summul
             }
         } 
         System.out.println("SUM: "+sum);
-        System.out.println("MUL: "+mul); */
+        System.out.println("MUL: "+mul); 
     }
     public static void main(String[] args)
     {
