@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class summul
 {
     public static void demo(int n)
@@ -26,6 +27,9 @@ public class summul
     }
     public static void main(String[] args)
     {
-        demo(1224);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n=sc.nextInt();
+        demo(n);
     }
 }
