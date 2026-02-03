@@ -17,7 +17,7 @@ class mul23
             n=n/10;
             }        
     }
-     public mul23(int ar[],int b,int c)
+     /*public mul23(int ar[],int b,int c)
     {
         int a=0;
         while(b>0)
@@ -32,10 +32,10 @@ class mul23
                 }
             b=b/10;
         }
-    }
+    }*/
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner();
+        Scanner sc = new Scanner(System.in);
         int ar[]={0,1,2,3,4,5,6,7,8,9};
         System.out.println("Enter the number");
         int n=sc.nextInt();
