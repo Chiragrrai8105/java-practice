@@ -13,7 +13,7 @@ class ashith extends chintu
     String bodybuilder;
     public ashith(String name,String cook,String bodybuilder)
     {
-        super();
+        //super();
         this.name=name;
         this.cook=cook;
         this.bodybuilder=bodybuilder;  
