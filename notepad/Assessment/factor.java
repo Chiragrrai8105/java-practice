@@ -4,7 +4,7 @@ class factor
     public factor(int num)
     { 
         int num1=num;
-        int ar[] = new int[10];
+        int[] ar = new int[10];
         int i=2;
         int j=0;
         int sum=0;

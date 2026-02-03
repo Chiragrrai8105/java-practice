@@ -2,25 +2,31 @@ class Parents extends Object
 {
     int id;
     int age;
-    public Parents()
+    public Parents(int id,int age)
     {
         super();
+        this.id=id;
+        this.age=age;
     }
 }
 class Childs extends Parents
 {
     String name;
     String gender;
-    public Childs(int a)
+    public Childs(int id,int age)
     {
-        super();
+        super(id,age);
+    }
+    void print()
+    {
+        System.out.println("id: "+id);
     }
 }
-public class Drivers
+class Drivers
 {
     public static void main(String[] args)
     {
-        Childs c = new Childs(2);
+        Childs c = new Childs(101,20);
         c.id=101;
         System.out.println(c);
         System.out.println(c.id);
@@ -28,5 +34,6 @@ public class Drivers
         System.out.println(c.age);
         c.name="chirag";
         System.out.println(c.name);
+        c.print();
     }
 }
