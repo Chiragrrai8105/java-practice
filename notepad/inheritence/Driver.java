@@ -23,7 +23,10 @@ public class Driver
         Child c = new Child();
         c.id=101;
         System.out.println(c);
+        System.out.println(c.id);
         c.age=20;
         System.out.println(c.age);
+        c.name="chirag";
+        System.out.println(c.name);
     }
 }
