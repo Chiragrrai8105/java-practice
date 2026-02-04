@@ -15,9 +15,9 @@ class chirag
 }   
 public class tostring1
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         chirag c = new chirag("pooja",21);
         System.out.println("Name: "+c.name);
-
     }
 }    

@@ -18,7 +18,7 @@ class chirag1
     }
     /*public String tostring1()
     {
-        return "name="+"pooja"+"AGE="+21;
+        return "name="+"pooja"+"AGE="+22;
     }*/
 }   
 public class tostring2
@@ -29,7 +29,5 @@ public class tostring2
         System.out.println("Name: "+c.name);
         c.setdemo(25);
         System.out.println(c.getdemo());
-
-
     }
 }    
