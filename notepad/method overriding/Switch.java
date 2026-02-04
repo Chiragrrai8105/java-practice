@@ -4,6 +4,7 @@ class cab
     public void ride()
     {
         int charge=0;
+        System.out.println("charge: "+charge);
     }    
 }
 class ola extends cab
@@ -12,6 +13,7 @@ class ola extends cab
     {
         System.out.println("welcome to ola");
         int charge=200;
+        System.out.println("charge: "+charge);
     }
     
 }
@@ -21,6 +23,7 @@ class uber extends cab
     {
         System.out.println("welcome to uber");
         int charge=400;
+        System.out.println("charge: "+charge);
     }
     
 }
@@ -30,6 +33,7 @@ class zomato extends cab
     {
         System.out.println("welcome to zomato");
         int charge=600;
+        System.out.println("charge: "+charge);
     }
     
 }
