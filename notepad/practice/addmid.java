@@ -3,6 +3,7 @@ class addmid
 {
     public static void demo(int ar[],int n)
     {
+        int m=1,sum=0;
         for(int i=0;i<n;i++)
         {   
             int count=0;
@@ -13,11 +14,19 @@ class addmid
                 ar[i]/=10;
             }
             System.out.println(count);
-            /*if(count%2!=0)
+            if(count%2!=0)
             {
-                
-            }*/
+                count/=2;
+                for(int j=0;j<count;j++)
+                {
+                    m=m*10;
+                }
+                int n1=ar[i]/m;
+                n1%=10;
+                sum+=n1;
+            }
         }
+        System.out.println("Sum: "+sum);
     }       
            public static void main(String[] args)
            {
