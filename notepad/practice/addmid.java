@@ -13,7 +13,7 @@ class addmid
                 count++;
                 ar[i]/=10;
             }
-            System.out.println(count);
+            //System.out.println(count);
             if(count%2!=0)
             {
                 count/=2;
@@ -22,12 +22,13 @@ class addmid
                     m=m*10;
                 }
                 int n1=ar[i]/m;
+                //System.out.println(n1);
                 n1%=10;
-                System.out.println(n1);
+                //System.out.println(n1);
                 sum+=n1;
             }
         }
-        System.out.println("Sum: "+sum);
+        //System.out.println("Sum: "+sum);
     }       
            public static void main(String[] args)
            {
