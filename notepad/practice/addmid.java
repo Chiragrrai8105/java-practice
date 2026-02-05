@@ -6,6 +6,8 @@ class addmid
         int m=1,sum=0;
         for(int i=0;i<n;i++)
         {   
+            //System.out.println(ar[i]);
+            int temp=ar[i];
             int count=0;
             while(ar[i]>0)
             {
@@ -17,21 +19,23 @@ class addmid
             if(count%2!=0)
             {
                 count/=2;
-                System.out.println(count);
+                //System.out.println(count);
                 for(int j=0;j<count;j++)
                 {
                     m=m*10;
                 }
-                System.out.println(m);
+                //System.out.println(m);
                 int n1=0;
-                n1=ar[i]/m;
+                n1=temp/m;
+                //System.out.println(ar[i]);
                 //System.out.println(n1);
-                n1%=10;
-                //System.out.println(n1);
-                sum+=n1;
+                temp%=10;
+                System.out.println(temp);
+                sum+=temp;
+                m=1;
             }
         }
-        //System.out.println("Sum: "+sum);
+        System.out.println("Sum: "+sum);
     }       
            public static void main(String[] args)
            {
