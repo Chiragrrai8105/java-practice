@@ -23,6 +23,7 @@ class addmid
                 }
                 int n1=ar[i]/m;
                 n1%=10;
+                System.out.println(n1);
                 sum+=n1;
             }
         }
