@@ -17,11 +17,14 @@ class addmid
             if(count%2!=0)
             {
                 count/=2;
+                System.out.println(count);
                 for(int j=0;j<count;j++)
                 {
                     m=m*10;
                 }
-                int n1=ar[i]/m;
+                System.out.println(m);
+                int n1=0;
+                n1=ar[i]/m;
                 //System.out.println(n1);
                 n1%=10;
                 //System.out.println(n1);
