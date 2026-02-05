@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class addmid
 {
-    public static void demo(int ar[],int n)
+    public void demo(int ar[],int n)
     {
         int m=1,sum=0;
         for(int i=0;i<n;i++)
@@ -36,7 +36,11 @@ class addmid
             }
         }
         System.out.println("Sum: "+sum);
-    }       
+    }   
+            public static addmid obj()
+            {
+                return new addmid();
+            }    
            public static void main(String[] args)
            {
             Scanner sc = new Scanner(System.in);
@@ -48,6 +52,6 @@ class addmid
             {
                 ar[i]=sc.nextInt();
             }
-            demo(ar,n);
+            obj().demo(ar,n);
            }
 }
