@@ -7,5 +7,7 @@ class wrapper
         Integer i=a;
         System.out.println(i);//autoboxing
         System.out.println(i.toString());
+        String s="Hi";
+        System.out.println(s.toString());
     }
 }
