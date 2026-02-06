@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class calculate_string
 {
     public static  void demo(String name)
@@ -5,9 +6,9 @@ public class calculate_string
         int count=0;
         for(int i=0;i<name.length();i++)
         {
-            if(name.charAt(i)==' ')
+            if(name.charAt(i)==" ")
             {
-                continue;
+                count++
             }
             else
                 count++;
@@ -16,7 +17,10 @@ public class calculate_string
     }
     public static void main(String[] args)
     {
-        demo("chirag Rai");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the string");
+        String name=sc.nextLine();
+        demo(name);
     }
 
 }
