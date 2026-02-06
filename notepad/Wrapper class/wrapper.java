@@ -5,6 +5,7 @@ class wrapper
         int a=10;
         System.out.println(a);
         Integer i=a;
-        System.out.println(i);//outboxing
+        System.out.println(i);//autoboxing
+        System.out.println(i.toString());
     }
 }
