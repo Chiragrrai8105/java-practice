@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class sqrcom
 {
     public static void demo(int n)
@@ -21,5 +22,12 @@ class sqrcom
         }
         else
             System.out.println("Not Equal");
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n=sc.nextInt();
+        demo(n);
     }
 }
