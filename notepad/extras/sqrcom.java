@@ -3,7 +3,7 @@ class sqrcom
 {
     public static void demo(int n)
     {
-        int n1=n,n2=n,n3=n,count=0,mul=0;
+        int n1=n,n2=n,n3=n,count=0,mul=1;
         n*=n;
         while(n2>0)
         {
