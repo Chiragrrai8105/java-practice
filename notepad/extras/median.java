@@ -3,16 +3,16 @@ class median {
     public static double findMedian(int[] arr) {
         Arrays.sort(arr);
         int count=0;
-        float n;
+        double n;
         for(int i=0;i<arr.length;i++)
         {
             count++;
         }
         //System.out.println(count);
-        if(count%2!=0)
+        if(count%2==0)
         {
             count/=2;
-            n=(arr[count]+arr[count-1])/2;
+            n=(arr[count]+arr[count+1])/2;
         }
         else
         {
@@ -24,7 +24,7 @@ class median {
     }
     public static void main(String[] args)
     {
-        int arr[]={1,2,3,4};
+        int arr[]={1,11,3,4};
         System.out.println(findMedian(arr));
     }
 }
