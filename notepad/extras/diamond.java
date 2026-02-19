@@ -17,6 +17,12 @@ public class diamond
                     System.out.println(" ");
                 }
             }
+            System.out.println(num++);
+            for(int i=0;i<=n;i++)
+            {
+                System.out.println(" ");
+            }
+            System.out.println(num);
         }
     }
 }
