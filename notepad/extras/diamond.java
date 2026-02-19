@@ -5,24 +5,26 @@ public class diamond
         int num=1,n=6;
         for(int i=1;i<=n;i++)
         {
-            for(s=1;s<n;s++)
+            for(int s=i;s<n;s++)
             {
-                System.out.println(" ");
+                System.out.print(" ");
             }
-            System.out.println(num++);
+            System.out.print(num++);
             if(i>1)
             {
-                for(int s=1;i<=(2*i-3);s++)
+                for(int s=1;s<=(2*i-3);s++)
                 {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
+            
+                System.out.print(num++);
             }
-            System.out.println(num++);
-            for(int i=0;i<=n;i++)
+            System.out.println();
+        }    
+            for(int k=1;k<n;k++)
             {
-                System.out.println(" ");
+                System.out.print(" ");
             }
             System.out.println(num);
-        }
     }
 }
