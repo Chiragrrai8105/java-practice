@@ -1,5 +1,5 @@
 class peakelement {
-    public int demo(int[] arr) {
+    public static int demo(int[] arr) {
         int a=0;
         for(int i=0;i<arr.length;i++)
         {
@@ -13,5 +13,9 @@ class peakelement {
             }
         }    
        return a;
+    }
+    public static void main(String[] args) {
+        int arr[]={1,2,3,4,8,3};
+        System.out.println(demo(arr));
     }
 }
