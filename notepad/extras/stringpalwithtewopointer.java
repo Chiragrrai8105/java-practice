@@ -2,7 +2,7 @@ class stringpalwithtewopointer
 {
     public static String demo()
     {
-        String s="chiich";
+        String s="namaan";
         int j=s.length()-1;
         for(int i=0;i<s.length();i++)
         {
