@@ -1,17 +1,16 @@
 class stringpalwithtewopointer
 {
-    public static int demo()
+    public static String demo()
     {
+        int j=0;
         String s="chiich";
         for(int i=0;i<s.length();i++)
         {
-            for(int j=s.length()-1;j>0;j--)
+            if(s.charAt(i)!=s.charAt(j))
             {
-                if(s.charAt(i)!=s.charAt(j))
-                {
-                    return "Not palindrome";
-                }
+                return "Not palindrome";
             }
+            j++;
         }
         return "Palindrome";
     }
