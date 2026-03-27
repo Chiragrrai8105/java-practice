@@ -2,12 +2,13 @@ class fastslow
 {
     public static void main(String[] args)
     {
-        int j=0,i;
-        int arr[]={1,2,3,4,5};
-        for(i=0;i<arr.length;i++)
+        int slow=0,fast=1;
+        int arr[]={1,2,3,4,5,6,7};
+        while(fast<arr.length-1)
         {
-            j=j+2;
+            slow++;
+            fast+=2;
         }
-        System.out.println(arr[i]);
+        System.out.println(arr[slow]);
     }
 }
